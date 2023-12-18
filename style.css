@@ -1,0 +1,100 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    margin: 0;
+    transform: translate(-50%,-50%);
+}
+
+.parent {
+    margin: 0;
+    width: 1000px;
+    height: 400px;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    border-radius: 10px;
+}
+
+.child-img {
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+    
+}
+
+.child {
+   margin: 60px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.mauve-overlay {
+    position: absolute;
+    top: 0;
+    right:  0; /* Laissé à 50% pour être centré par rapport au parent */
+     /* Centrer mauve-overlay horizontalement */
+    width: 48.4%; /* Ajusté à 50% */
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background-color: hsl(277, 64%, 61%);
+    mix-blend-mode: multiply;
+    
+}
+
+
+.normal {
+    font-size: 32px;
+    text-align: left;
+    color: white;
+    font-family: inter;
+    width: 40px; /* Ajout de l'unité de mesure */
+}
+
+.difcol {
+    font-size: 32px;
+    text-align: left;
+    color: hsl(277, 64%, 61%);
+    font-family: 'Inter', sans-serif;
+    width: 900px; /* Ajout de l'unité de mesure */
+}
+
+P {
+    margin-top: 50px;
+    color: rgb(224, 222, 222);
+    font-family: 'inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.numbers {
+    margin-right: 53px; /* Ajoutez une marge entre les éléments si nécessaire */
+    color: white;
+    display: inline-block;
+    justify-self: center;
+   text-align: justify;
+    align-items: center;
+    align-content: center;
+    font-family: 'inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.type {
+    margin-right: 45px; /* Ajoutez une marge entre les éléments si nécessaire */
+    color: gray;
+    display: inline-block;
+    justify-self: left;
+text-align: right;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 10px;
+    font-family: 'inter', sans-serif;
+}
+.numbers-container {
+    display: flex;
+    align-items: center;
+}
+
